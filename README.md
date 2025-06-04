@@ -39,5 +39,3 @@ The game will display:
 ## Training
 
 The agent starts with random exploration (ε=80%) and gradually relies more on its learned model as ε decreases. The plot shows score progression across games.
-
-Note: Training may take many games before the snake becomes competent. Performance improves gradually as the neural network learns from experience.

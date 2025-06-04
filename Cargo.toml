@@ -1,0 +1,14 @@
+# Cargo.toml
+[package]
+name = "my_app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+macroquad = "0.3"
+rand     = "0.8"
+gnuplot  = "0.0.46"
+
+[dependencies.tch]
+version = "0.14"
+features = ["download-libtorch"]
